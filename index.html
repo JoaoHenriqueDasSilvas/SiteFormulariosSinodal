@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <title>Nautilus - Mergulhe na Inovação</title>
+    
+</head>
+<body>
+    <header>
+        <nav>
+            <div id="logo">
+                <img src="img/logo.png" alt="Logo">
+                <h1>NAUTILUS</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#pesquisa">A Pesquisa Marítima</a></li>
+                <li><a href="#proposta">Proposta</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="fundo">
+        <h1>Inovando na exploração marítima, em busca de um novo futuro.</h1>
+    </div>
+
+    <!-- Conteúdo -->
+    <div class="div1">
+        <img src="img/pesquisa.jpg">
+        <div>
+            <h2 id="pesquisa">A Pesquisa Marítima</h2>
+            <p>A pesquisa marítima desempenha um papel fundamental na compreensão e preservação dos oceanos...</p>
+        </div>
+    </div>
+
+    <div class="div2">
+        <div>
+            <h2 id="proposta">Proposta</h2>
+            <p>A missão da Nautilus é destacar a importância vital dos oceanos...</p>
+        </div>
+        <img src="img/mergulhadores.jpg">
+    </div>
+
+   
+    <div class="div3" id="contato">
+        <h2>Entre em Contato</h2>
+        <form action="#" method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" placeholder="João Silva" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" placeholder="exemplo@gmail.com" required>
+
+            <label for="telefone">Telefone:</label>
+            <input type="tel" id="telefone" name="telefone" placeholder="(11) 91234-5678" required>
+
+            <label for="cidade">Cidade:</label>
+            <input type="text" id="cidade" name="cidade" placeholder="São Paulo" required>
+
+            <label for="estado">Estado:</label>
+            <input type="text" id="estado" name="estado" placeholder="SP" required>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="5" placeholder="Digite sua mensagem aqui..." required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+
+  
+    <div class="div3">
+        <h2>Cadastre Interesse em Equipamentos</h2>
+        <form action="#" method="post">
+
+    
+            <label for="data">Data preferida para contato:</label>
+            <input type="date" id="data" name="data" required>
+
+         
+            <p>Tipo de equipamento que procura:</p>
+            <label>
+                <input type="radio" name="equipamento" value="Robótica Subaquática" required>
+                Robótica Subaquática
+            </label><br>
+            <label>
+                <input type="radio" name="equipamento" value="Sensores Ambientais">
+                Sensores Ambientais
+            </label><br>
+            <label>
+                <input type="radio" name="equipamento" value="Veículos de Exploração Profunda">
+                Veículos de Exploração Profunda
+            </label>
+
+         
+            <label for="nivel">Nível de Experiência:</label>
+            <select id="nivel" name="nivel">
+                <option value="iniciante">Iniciante</option>
+                <option value="intermediario">Intermediário</option>
+                <option value="avancado">Avançado</option>
+                <option value="profissional">Profissional</option>
+            </select>
+
+         
+            <p>Serviços adicionais desejados:</p>
+            <label><input type="checkbox" name="servicos" value="treinamento"> Treinamento Técnico</label><br>
+            <label><input type="checkbox" name="servicos" value="instalacao"> Instalação e Configuração</label><br>
+            <label><input type="checkbox" name="servicos" value="manutencao"> Plano de Manutenção</label><br>
+
+         
+            <label for="orcamento">Orçamento estimado (R$):</label>
+            <div class="range-container">
+    <input type="range" id="range" min="0" max="10000">
+    <label for="range" id="rangeValue">5000</label>
+</div>
+
+          
+            <label for="obs">Observações:</label>
+            <textarea id="obs" name="obs" rows="4" placeholder="Ex: Quero testar em águas profundas..."></textarea>
+
+            
+            <button type="submit">Enviar Solicitação</button>
+        </form>
+    </div>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-col">
+                <h3>NAUTILUS</h3>
+                <p>Inovando na exploração marítima com tecnologia e compromisso ambiental.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Contato</h4>
+                <p><strong>Telefone:</strong> (11) 98765-4321</p>
+                <p><strong>Email:</strong> contato@nautilus.com.br</p>
+            </div>
+            <div class="footer-col">
+                <h4>Endereço</h4>
+                <p>Av. dos Oceanos, 1234</p>
+                <p>Bairro Mar Azul</p>
+                <p>São Paulo - SP</p>
+                <p>CEP: 01234-567</p>
+            </div>
+            <div class="footer-col">
+                <h4>Links</h4>
+                <a href="#pagina1">Pesquisas</a><br>
+                <a href="#pagina2">Loja oficial</a><br>
+                <a href="#pagina3">Parceiros</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Nautilus. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+    <script src="js.js"></script>
+</body>
+</html>
